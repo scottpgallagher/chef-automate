@@ -22,5 +22,4 @@ getLatestVersion() {
 		    wget "https://releases.hashicorp.com/terraform/"$VERSION"/terraform_"$VERSION"_linux_amd64.zip"
 		    unzip "terraform_"$VERSION"_linux_amd64.zip"
 		    sudo install terraform /usr/local/bin/
-		    pip install okta_aws
-		    pip install awscli
+
