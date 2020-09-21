@@ -3,6 +3,8 @@
 DEBIAN_FRONTEND=noninteractive
 sudo apt-get update
 sudo apt-get install -y --no-install-recommends apt-utils dialog dnsutils httpie wget unzip curl jq
+pip install okta_aws
+pip install awscli
 DEBIAN_FRONTEND=dialog
 
 getLatestVersion() {
