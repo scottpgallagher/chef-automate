@@ -5,6 +5,7 @@ sudo apt-get update
 sudo apt-get install -y --no-install-recommends apt-utils dialog dnsutils httpie wget unzip curl jq
 pip install okta_aws
 pip install awscli
+curl -o ~/.okta_aws.toml https://github.com/scottpgallagher/okta_aws/blob/master/okta_aws.toml
 DEBIAN_FRONTEND=dialog
 
 getLatestVersion() {
