@@ -3,6 +3,7 @@
 DEBIAN_FRONTEND=noninteractive
 sudo apt-get update
 sudo apt-get install -y --no-install-recommends apt-utils dialog dnsutils httpie wget unzip curl jq
+/usr/bin/python3 -m pip install --upgrade pip
 pip install okta_aws
 pip install awscli
 curl -o ~/.okta_aws.toml https://raw.githubusercontent.com/scottpgallagher/okta_aws/master/okta_aws.toml
